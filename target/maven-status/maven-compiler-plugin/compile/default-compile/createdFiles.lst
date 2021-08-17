@@ -1,8 +1,0 @@
-com\app\controller\AutoInsController.class
-com\app\autoIns\AutoInsCalc.class
-com\app\dto\ErrorClass.class
-com\app\exception\ApplicationExceptionHandler.class
-com\app\autoIns\SwaggerConfig.class
-com\app\dto\ResponseInfo.class
-com\app\exception\ApplicationException.class
-com\app\service\AutoInsService.class
