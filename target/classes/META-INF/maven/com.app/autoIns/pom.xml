@@ -9,10 +9,10 @@
 		<version>2.4.2</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example</groupId>
-	<artifactId>movie</artifactId>
+	<groupId>com.app</groupId>
+	<artifactId>autoIns</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>movie</name>
+	<name>autoIns</name>
 	<description>SptingBoot Application</description>
 	<properties>
 		<java.version>1.8</java.version>
@@ -65,6 +65,20 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<archive>
+						<manifest>
+							<mainClass>com.app.autoIns.AutoInsCalcTest</mainClass>
+						</manifest>
+					</archive>
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>repackage</goal>
+						</goals>
+					</execution>
+				</executions>
 			</plugin>
 		</plugins>
 	</build>
